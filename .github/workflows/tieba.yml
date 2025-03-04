@@ -28,3 +28,4 @@ jobs:
           mvn -B compile exec:java \
             -Dexec.mainClass="top.srcrs.Run" \
             -Dexec.args="$BDUSS $SCKEY"
+
